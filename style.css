@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  height: 100vh;
+  background-color: yellow;
+}
+
+.container {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+}
+
+.card {
+  height: 100vh;
+  background-color: #fff;
+}
+
+.work {
+  padding: 3.125rem;
+}
+
+.work h4 {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.box {
+  background-color: rgb(178, 201, 199);
+  width: 70%;
+  margin: 20px 0px 20px 40px;
+}
+
+.box p {
+  text-align: center;
+}
+
+.amount {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.blue {
+  color: blue;
+}
+
+.para {
+  font-weight: 500;
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-a {
+  text-align: center;
+  margin-top: 83%;
+}
+.link-b {
+  text-align: center;
+  margin-top: 95%;
+}
+.link-c {
+  text-align: center;
+  margin-top: 87%;
+}
+.link-d {
+  text-align: center;
+  margin-top: 103%;
+}
+
+@media (max-width: 600px) {
+  .section1 {
+    background-color: blue;
+    border: 2px solid yellow;
+  }
+  .container {
+    display: flex;
+    flex-direction:column;
+  }
+  box {
+    background-color: rgb(178, 201, 199);
+    width: 100%;
+    /* margin: 20px 0px 20px 90px */
+    margin-left: 100px;
+}
+}
